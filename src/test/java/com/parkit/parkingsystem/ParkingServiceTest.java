@@ -13,9 +13,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-
 import java.time.LocalDateTime;
-import java.util.Date;
 
 import static org.mockito.Mockito.*;
 
@@ -33,30 +31,29 @@ public class ParkingServiceTest {
 
     @BeforeEach
     private void setUpPerTest() {
-        try {
-            when(inputReaderUtil.readVehicleRegistrationNumber()).thenReturn("ABCDEF");
+            try {
+                ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR, false);
+                parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
+                Ticket ticket = new Ticket();
+                ticket.setInTime(LocalDateTime.now().minusHours(1));
+                ticket.setParkingSpot(parkingSpot);
+                ticket.setVehicleRegNumber("ABCDEF");
+                when(inputReaderUtil.readVehicleRegistrationNumber()).thenReturn("ABCDEF");
 
-            ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
-            Ticket ticket = new Ticket();
-            ticket.setInTime(LocalDateTime.now());
-            ticket.setParkingSpot(parkingSpot);
-            ticket.setVehicleRegNumber("ABCDEF");
-            when(ticketDAO.getTicket(anyString())).thenReturn(ticket);
-            when(ticketDAO.updateTicket(any(Ticket.class))).thenReturn(true);
+                when(ticketDAO.getTicket("ABCDEF")).thenReturn(ticket);
+                when(ticketDAO.updateTicket(any(Ticket.class))).thenReturn(true);
+                when(parkingSpotDAO.updateParking(any(ParkingSpot.class))).thenReturn(true);
 
-            when(parkingSpotDAO.updateParking(any(ParkingSpot.class))).thenReturn(true);
 
-            parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw  new RuntimeException("Failed to set up test mock objects");
+            } catch (Exception e) {
+                e.printStackTrace();
+                throw new RuntimeException("Failed to set up test mock objects");
+            }
+        }
+
+        @Test
+        public void processExitingVehicleTest () {
+            parkingService.processExitingVehicle();
+            verify(parkingSpotDAO, Mockito.times(1)).updateParking(any(ParkingSpot.class));
         }
     }
-
-    @Test
-    public void processExitingVehicleTest(){
-        parkingService.processExitingVehicle();
-        verify(parkingSpotDAO, Mockito.times(1)).updateParking(any(ParkingSpot.class));
-    }
-
-}

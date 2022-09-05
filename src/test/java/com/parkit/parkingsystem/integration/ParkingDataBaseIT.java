@@ -64,7 +64,7 @@ public class ParkingDataBaseIT {
 
         //THEN
         //Check that a ticket is actually saved in DB and Parking table is updated with availability
-        Ticket abcdef = TicketDAO.getTicket("ABCDEF");
+        Ticket abcdef = ticketDAO.getTicket("ABCDEF");
         assertNotNull(abcdef);
         int nextAvailableSlot = parkingSpotDAO.getNextAvailableSlot(ParkingType.CAR);
         assertNotEquals(1, nextAvailableSlot);
@@ -76,7 +76,7 @@ public class ParkingDataBaseIT {
         //GIVEN
         testParkingACar();
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
-        Ticket ticketToSetUpTime = TicketDAO.getTicket("ABCDEF");
+        Ticket ticketToSetUpTime = ticketDAO.getTicket("ABCDEF");
         ticketToSetUpTime.setInTime(LocalDateTime.now().minusHours(1));
         ticketDAO.saveTicket(ticketToSetUpTime);
 
@@ -85,10 +85,9 @@ public class ParkingDataBaseIT {
 
         //THEN
         //Check that the fare generated and out time are populated correctly in the database
-        Ticket abcdef = TicketDAO.getTicket("ABCDEF");
+        Ticket abcdef = ticketDAO.getTicket("ABCDEF");
         assertNotNull(abcdef.getOutTime());
         assertNotEquals(0,abcdef.getPrice());
-
 
     }
 
