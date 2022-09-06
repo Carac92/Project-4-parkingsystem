@@ -57,7 +57,8 @@ public class TicketDAO {
                 ticket.setVehicleRegNumber(vehicleRegNumber);
                 ticket.setPrice(rs.getDouble(3));
                 ticket.setInTime(rs.getTimestamp(4).toLocalDateTime());
-                ticket.setOutTime(rs.getTimestamp(5).toLocalDateTime());
+                Timestamp timestamp = rs.getTimestamp(5);
+                if(timestamp != null) ticket.setOutTime(rs.getTimestamp(5).toLocalDateTime());
             }
             dataBaseConfig.closeResultSet(rs);
             dataBaseConfig.closePreparedStatement(ps);
@@ -85,5 +86,43 @@ public class TicketDAO {
             dataBaseConfig.closeConnection(con);
         }
         return false;
+    }
+    public boolean updateTicketInTime(Ticket ticket){
+        Connection con = null;
+        try {
+            con = dataBaseConfig.getConnection();
+            PreparedStatement ps = con.prepareStatement(DBConstants.UPDATE_TICKET_IN_TIME);
+            ps.setTimestamp(1,Timestamp.valueOf(ticket.getInTime()));
+            ps.setInt(2,ticket.getId());
+            ps.execute();
+            return true;
+        }catch(Exception ex){
+            logger.error("Error updating ticket In time", ex);
+        }finally{
+            dataBaseConfig.closeConnection(con);
+        }
+        return false;
+    }
+
+    public boolean regularCustomer (String vehicleRegNumber){
+        String customer="";
+        Connection con = null;
+        try {
+            con = dataBaseConfig.getConnection();
+            PreparedStatement ps = con.prepareStatement(DBConstants.CHECK_PREVIOUS_CUSTOMER);
+            ps.setString(1, vehicleRegNumber);
+            ResultSet rs = ps.executeQuery();
+            if(rs.next()) {
+                customer = rs.getString(1);
+            }
+                if (customer.equals(vehicleRegNumber))return true;
+            else return false;
+        }catch(Exception ex){
+            logger.error("Error Looking for previous customer", ex);
+        }finally{
+            dataBaseConfig.closeConnection(con);
+        }
+        return false;
+
     }
 }
