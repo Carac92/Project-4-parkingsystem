@@ -40,9 +40,5 @@ public class FareCalculatorService {
         long minutes = duration.toMillis();
         double hours=((double)minutes/(1000*60*60));
         return hours;
-        //double formattedHours = Double.parseDouble(String.valueOf(df.format(hours)).replaceAll(",","."));
-        //System.out.println(formattedHours);
-
-        //return formattedHours;
     }
 }
