@@ -1,7 +1,6 @@
 package com.parkit.parkingsystem.service;
 import com.parkit.parkingsystem.constants.Fare;
 import com.parkit.parkingsystem.model.Ticket;
-
 import java.time.Duration;
 
 public class FareCalculatorService {
@@ -37,8 +36,13 @@ public class FareCalculatorService {
 
         //Using Duration Between two LocalDateTime objects converts to minutes divided by 60 to have the
         //correct hours.
-        Duration duration = Duration.between(ticket.getInTime(), ticket.getOutTime());
-        long minutes = duration.toMinutes();
-        return ((double) minutes/60);
+        Duration duration = Duration.between(ticket.getInTime(),ticket.getOutTime());
+        long minutes = duration.toMillis();
+        double hours=((double)minutes/(1000*60*60));
+        return hours;
+        //double formattedHours = Double.parseDouble(String.valueOf(df.format(hours)).replaceAll(",","."));
+        //System.out.println(formattedHours);
+
+        //return formattedHours;
     }
 }

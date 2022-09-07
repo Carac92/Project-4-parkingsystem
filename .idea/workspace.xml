@@ -5,34 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41b7a134-ab7d-4a75-a9d0-157ff07b5f2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/042c670331a86ba71cc04522af9c847c7357a04f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12ca9e2a95f124676d15845f1cf999cb45b2db5e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/3010778988e0a8c9498c5b9ccbb0c445bb7c8f19" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/318986ef301ad062e600ed154b628f156483e6f7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/348a6a839f09ba349014f14ea7f0814d4e17dab7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7550c37a2401ab8096eab3d6f0d62b891b9c9155" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7550c37a2401ab8096eab3d6f0d62b891b9c9155" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c54d5d7febc45facabac5e0634ff9591a676a28" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76c98b7b54c9c1b7a996ba73834a448b978db0f0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83ca0dc357a8c4d44de3d7afb64a8ac2f9eaf20c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a916e3a5d00f81123923d7b960791d58a790f1b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/773c684c7c8bfd06f3cca6e47054bf5e1510573f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfafa75b381d8607fc05b55227f76d809f62e699" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca8d38eaa07ba4c323ae82bc7ea69a1d687a19bf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f413b9814992e2e3525f88e4eb1a9b6234768a0e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/constants/DBConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/constants/DBConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/config/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/config/DataBaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/ParkingSpotDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/ParkingSpotDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/ParkingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/ParkingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/ParkingServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/FareCalculatorWithDataBaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/FareCalculatorWithDataBaseIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/constants/DBConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/constants/DBConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/dao/TicketDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/dao/TicketDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/ParkingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/ParkingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/FareCalculatorServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/FareCalculatorServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/ParkingServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/ParkingServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/integration/ParkingDataBaseIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/integration/ParkingDataBaseIT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parking-system-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/parking-system-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.parkit.parkingsystem.ParkingServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.parkit.parkingsystem.ParkingServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/integration/FareCalculatorWithDataBaseIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parkit/parkingsystem/integration/FareCalculatorWithDataBaseIT.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -80,7 +83,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.FareCalculatorWithDataBaseIT.processExitingVehicleWithRegularCustomerDiscountTest">
+  <component name="RunManager" selected="JUnit.FareCalculatorWithDataBaseIT">
     <configuration name="FareCalculatorServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking-system" />
       <extension name="coverage">
@@ -92,6 +95,22 @@
       <option name="PACKAGE_NAME" value="com.parkit.parkingsystem" />
       <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.FareCalculatorServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FareCalculatorServiceTest.calculateFareCarWithMoreThanADayParkingTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parkit.parkingsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parkit.parkingsystem" />
+      <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.FareCalculatorServiceTest" />
+      <option name="METHOD_NAME" value="calculateFareCarWithMoreThanADayParkingTime" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,29 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingDataBaseIT.testParkingACar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parking-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parkit.parkingsystem.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parkit.parkingsystem.integration" />
-      <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.integration.ParkingDataBaseIT" />
-      <option name="METHOD_NAME" value="testParkingACar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FareCalculatorWithDataBaseIT.processExitingVehicleWithRegularCustomerDiscountTest" />
         <item itemvalue="JUnit.FareCalculatorWithDataBaseIT" />
+        <item itemvalue="JUnit.FareCalculatorWithDataBaseIT.processExitingVehicleWithRegularCustomerDiscountTest" />
         <item itemvalue="JUnit.ParkingDataBaseIT" />
-        <item itemvalue="JUnit.ParkingDataBaseIT.testParkingACar" />
         <item itemvalue="JUnit.FareCalculatorServiceTest" />
+        <item itemvalue="JUnit.FareCalculatorServiceTest.calculateFareCarWithMoreThanADayParkingTime" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +219,7 @@
     <SUITE FILE_PATH="coverage/Project_4_parkingsystem$FareCalculatorWithDataBaseIT_processExitingVehicleWithRegularCustomerDiscountTest.ic" NAME="FareCalculatorWithDataBaseIT.processExitingVehicleWithRegularCustomerDiscountTest Coverage Results" MODIFIED="1662478596964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.parkit.parkingsystem.integration.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Project_4_parkingsystem$FareCalculatorWithDataBaseIT.ic" NAME="FareCalculatorWithDataBaseIT Coverage Results" MODIFIED="1662477774460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Project_4_parkingsystem$FareCalculatorWithDataBaseIT.ic" NAME="FareCalculatorWithDataBaseIT Coverage Results" MODIFIED="1662479654163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.parkit.parkingsystem.integration.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Project_4_parkingsystem$ParkingDataBaseIT.ic" NAME="ParkingDataBaseIT Coverage Results" MODIFIED="1662470691970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -8,11 +8,13 @@ import com.parkit.parkingsystem.model.Ticket;
 import com.parkit.parkingsystem.util.InputReaderUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 
 public class ParkingService {
 
+    private static DecimalFormat df = new DecimalFormat("#.##");
     private static final Logger logger = LogManager.getLogger("ParkingService");
 
     private static FareCalculatorService fareCalculatorService = new FareCalculatorService();
@@ -32,7 +34,7 @@ public class ParkingService {
             ParkingSpot parkingSpot = getNextParkingNumberIfAvailable();
             if(parkingSpot !=null && parkingSpot.getId() > 0){
                 String vehicleRegNumber = getVehichleRegNumber();
-                if(ticketDAO.regularCustomer(vehicleRegNumber)) System.out.println("Welcome back!" +
+                if(ticketDAO.regularCustomer(vehicleRegNumber)) System.out.println("Welcome back! " +
                         "As a recurring user of our parking lot, you'll benefit from a 5% discount");
                 parkingSpot.setAvailable(false);
                 parkingSpotDAO.updateParking(parkingSpot);//allot this parking space and mark it's availability as false
@@ -111,8 +113,9 @@ public class ParkingService {
                 ParkingSpot parkingSpot = ticket.getParkingSpot();
                 parkingSpot.setAvailable(true);
                 parkingSpotDAO.updateParking(parkingSpot);
-                System.out.println("Please pay the parking fare:" + ticket.getPrice());
-                System.out.println("Recorded out-time for vehicle number:" + ticket.getVehicleRegNumber() + " is:" + outTime);
+                df.setRoundingMode(RoundingMode.UP);
+                System.out.println("Please pay the parking fare: " + df.format(ticket.getPrice()));
+                System.out.println("Recorded out-time for vehicle number: " + ticket.getVehicleRegNumber() + " is:" + outTime);
             }else{
                 System.out.println("Unable to update ticket information. Error occurred");
             }

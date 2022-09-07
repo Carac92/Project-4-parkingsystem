@@ -32,7 +32,7 @@ public class ParkingService {
 <span class="nc" id="L32">            ParkingSpot parkingSpot = getNextParkingNumberIfAvailable();</span>
 <span class="nc bnc" id="L33" title="All 4 branches missed.">            if(parkingSpot !=null &amp;&amp; parkingSpot.getId() &gt; 0){</span>
 <span class="nc" id="L34">                String vehicleRegNumber = getVehichleRegNumber();</span>
-<span class="nc bnc" id="L35" title="All 2 branches missed.">                if(ticketDAO.regularCustomer(vehicleRegNumber)) System.out.println(&quot;Welcome back!&quot; +</span>
+<span class="nc bnc" id="L35" title="All 2 branches missed.">                if(ticketDAO.regularCustomer(vehicleRegNumber)) System.out.println(&quot;Welcome back! &quot; +</span>
                         &quot;As a recurring user of our parking lot, you'll benefit from a 5% discount&quot;);
 <span class="nc" id="L37">                parkingSpot.setAvailable(false);</span>
 <span class="nc" id="L38">                parkingSpotDAO.updateParking(parkingSpot);//allot this parking space and mark it's availability as false</span>

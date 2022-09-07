@@ -1,6 +1,5 @@
 package com.parkit.parkingsystem.integration;
 
-import com.parkit.parkingsystem.constants.Fare;
 import com.parkit.parkingsystem.constants.ParkingType;
 import com.parkit.parkingsystem.dao.ParkingSpotDAO;
 import com.parkit.parkingsystem.dao.TicketDAO;
@@ -16,8 +15,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+
 import java.time.LocalDateTime;
-import static junit.framework.Assert.assertEquals;
+
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
@@ -55,6 +55,9 @@ public class ParkingDataBaseIT {
 
     @Test
     public void testParkingACar(){
+        /*
+        Check that a ticket is actually saved in DB and Parking table is updated with availability
+         */
         // GIVEN
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
 
@@ -62,7 +65,7 @@ public class ParkingDataBaseIT {
         parkingService.processIncomingVehicle();
 
         //THEN
-        //Check that a ticket is actually saved in DB and Parking table is updated with availability
+
         Ticket abcdef = ticketDAO.getTicket("ABCDEF");
         assertNotNull(abcdef);
         int nextAvailableSlot = parkingSpotDAO.getNextAvailableSlot(ParkingType.CAR);
@@ -72,6 +75,9 @@ public class ParkingDataBaseIT {
 
     @Test
     public void testParkingLotExit(){
+        /*
+        Check that the fare generated and out time are populated correctly in the database
+        */
         //GIVEN
         testParkingACar();
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
@@ -83,7 +89,6 @@ public class ParkingDataBaseIT {
         parkingService.processExitingVehicle();
 
         //THEN
-        //Check that the fare generated and out time are populated correctly in the database
         Ticket abcdef = ticketDAO.getTicket("ABCDEF");
         assertNotNull(abcdef.getOutTime());
         assertNotEquals(0.0,abcdef.getPrice());
