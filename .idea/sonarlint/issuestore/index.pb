@@ -33,15 +33,3 @@ q
 Asrc/main/java/com/parkit/parkingsystem/config/DataBaseConfig.java,3/d/3dc6d1078af5e430ee41185cb7fa3aded8bacc0d
 t
 Dsrc/main/java/com/parkit/parkingsystem/service/InteractiveShell.java,7/7/773c684c7c8bfd06f3cca6e47054bf5e1510573f
-_
-/src/main/java/com/parkit/parkingsystem/App.java,f/4/f413b9814992e2e3525f88e4eb1a9b6234768a0e
-i
-9src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java,1/2/12ca9e2a95f124676d15845f1cf999cb45b2db5e
-h
-8src/main/java/com/parkit/parkingsystem/model/Ticket.java,8/3/83ca0dc357a8c4d44de3d7afb64a8ac2f9eaf20c
-j
-:src/main/java/com/parkit/parkingsystem/constants/Fare.java,5/e/5ee126867486501dbae39851404efa4711df85bc
-y
-Isrc/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java,c/a/ca8d38eaa07ba4c323ae82bc7ea69a1d687a19bf
-r
-Bsrc/main/java/com/parkit/parkingsystem/service/ParkingService.java,3/0/3010778988e0a8c9498c5b9ccbb0c445bb7c8f19

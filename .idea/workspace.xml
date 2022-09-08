@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41b7a134-ab7d-4a75-a9d0-157ff07b5f2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12ca9e2a95f124676d15845f1cf999cb45b2db5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/3010778988e0a8c9498c5b9ccbb0c445bb7c8f19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ee126867486501dbae39851404efa4711df85bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83ca0dc357a8c4d44de3d7afb64a8ac2f9eaf20c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca8d38eaa07ba4c323ae82bc7ea69a1d687a19bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f413b9814992e2e3525f88e4eb1a9b6234768a0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

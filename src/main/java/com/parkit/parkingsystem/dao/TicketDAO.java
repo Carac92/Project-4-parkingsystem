@@ -116,9 +116,9 @@ public class TicketDAO {
             ResultSet rs = ps.executeQuery();
             if(rs.next()) {
                 customer = rs.getString(1);
-            }
                 if (customer.equals(vehicleRegNumber))return true;
-            else return false;
+            }
+
         }catch(Exception ex){
             logger.error("Error Looking for previous customer", ex);
         }finally{
