@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41b7a134-ab7d-4a75-a9d0-157ff07b5f2a" name="Changes" comment="" />
+    <list default="true" id="41b7a134-ab7d-4a75-a9d0-157ff07b5f2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
     "settings.editor.selected.configurable": "coverage"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ParkingServiceTest">
+  <component name="RunManager" selected="JUnit.FareCalculatorWithDataBaseIT">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.parkit.parkingsystem.App" />
       <module name="parking-system" />
@@ -131,10 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FareCalculatorWithDataBaseIT" />
         <item itemvalue="JUnit.ParkingServiceTest" />
         <item itemvalue="JUnit.FareCalculatorServiceTest" />
         <item itemvalue="JUnit.ParkingDataBaseIT" />
-        <item itemvalue="JUnit.FareCalculatorWithDataBaseIT" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
