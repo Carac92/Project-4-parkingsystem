@@ -9,16 +9,8 @@ Qsrc/test/java/com/parkit/parkingsystem/integration/config/DataBaseTestConfig.ja
 Vsrc/test/java/com/parkit/parkingsystem/integration/service/DataBasePrepareService.java,f/b/fbb2241be41cb3e33b3972a1e0455f171de532a4
 B
 resources/Data.sql,2/c/2c00412a6d81a0b184af68e7ec42e8a8b3a372b7
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-u
-Esrc/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java,3/4/348a6a839f09ba349014f14ea7f0814d4e17dab7
 n
 >src/test/java/com/parkit/parkingsystem/ParkingServiceTest.java,b/f/bfafa75b381d8607fc05b55227f76d809f62e699
-y
-Isrc/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java,7/6/76c98b7b54c9c1b7a996ba73834a448b978db0f0
-„
-Tsrc/test/java/com/parkit/parkingsystem/integration/FareCalculatorWithDataBaseIT.java,0/4/042c670331a86ba71cc04522af9c847c7357a04f
 p
 @src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java,3/c/3c54d5d7febc45facabac5e0634ff9591a676a28
 m
