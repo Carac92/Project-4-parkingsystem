@@ -61,6 +61,7 @@ public class TicketDAO {
                 ticket.setInTime(rs.getTimestamp(4).toLocalDateTime());
                 Timestamp timestamp = rs.getTimestamp(5);
                 if(timestamp != null) ticket.setOutTime(rs.getTimestamp(5).toLocalDateTime());
+                return ticket;
             }
             dataBaseConfig.closeResultSet(rs);
             dataBaseConfig.closePreparedStatement(ps);
@@ -68,8 +69,8 @@ public class TicketDAO {
             logger.error("Error fetching next available slot",ex);
         }finally {
             dataBaseConfig.closeConnection(con);
-            return ticket;
         }
+        return ticket;
     }
 
     public boolean updateTicket(Ticket ticket) {
