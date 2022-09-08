@@ -1,0 +1,33 @@
+
+Xcom.parkit.parkingsystem.service.ParkingService#getVehichleRegNumber()Ljava/lang/String;‘
+†/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java= =('"1*ì
+1‘
+†/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java> >(À
+½
+‘
+†/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java> >(
+%0java.io.PrintStream"__id*
+""ÔÑ
+‘
+†/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java> >(]
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*CA
+?Please type the vehicle registration number and press enter key2println(Ljava/lang/String;)œ
+™
+‘
+†/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java? ?(3
+%2-com.parkit.parkingsystem.util.InputReaderUtil"__id*H*F1
+/com.parkit.parkingsystem.service.ParkingService"
+inputReaderUtilèå
+‘
+†/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java? ?(>
+%3java.lang.String"_com.parkit.parkingsystem.util.InputReaderUtil#readVehicleRegistrationNumber()Ljava/lang/String;*5
+3
+%2-com.parkit.parkingsystem.util.InputReaderUtil2readVehicleRegistrationNumber()"®
+‘
+†/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java? ?(?
+
+%3java.lang.StringB31
+/com.parkit.parkingsystem.service.ParkingService

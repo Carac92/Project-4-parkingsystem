@@ -1,0 +1,16 @@
+
+kcom.parkit.parkingsystem.model.ParkingSpot#getParkingType()Lcom/parkit/parkingsystem/constants/ParkingType;å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java (%"1*Ó
+1å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java (è
+å
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java (4
+%0.com.parkit.parkingsystem.constants.ParkingType"__id*?*=,
+*com.parkit.parkingsystem.model.ParkingSpot"
+parkingType"«
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java (6
+4
+%0.com.parkit.parkingsystem.constants.ParkingTypeB.,
+*com.parkit.parkingsystem.model.ParkingSpot

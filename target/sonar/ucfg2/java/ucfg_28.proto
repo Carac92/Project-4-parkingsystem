@@ -1,0 +1,107 @@
+
+}com.parkit.parkingsystem.service.ParkingService#getNextParkingNumberIfAvailable()Lcom/parkit/parkingsystem/model/ParkingSpot;ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaB B(6"11* 
+2ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaO O(ø
+º
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaO O(
+ejava.lang.Exception"__id*
+""Ã
+…
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaP P(%
+%9org.apache.logging.log4j.Logger"__id*
+""öó
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaP P(I
+%10void"Oorg.apache.logging.log4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V*'
+%
+%9org.apache.logging.log4j.Logger*.,
+*Error fetching next available parking slot*
+
+ejava.lang.Exception2.error(Ljava/lang/String;Ljava/lang/Throwable;)*
+1*ú
+5ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaK$ K(h«ƒ
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaK K(#
+%5java.lang.Exception"java.lang.Exception≥
+∞
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaK K(i
+%6"/java.lang.Exception#<init>(Ljava/lang/String;)V*
+
+%5java.lang.Exception*FD
+BError fetching parking number from DB. Parking slots might be full*
+2*´
+6ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaI I(Nå
+â
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaI I(N9
+parkingSpot*com.parkit.parkingsystem.model.ParkingSpot"__id*2
+0
+%3*com.parkit.parkingsystem.model.ParkingSpot*
+1*ü
+7ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaI. I(;ıÚ
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaI" I(-0
+%3*com.parkit.parkingsystem.model.ParkingSpot"*com.parkit.parkingsystem.model.ParkingSpotà
+Ö
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaI I(N
+%4"fcom.parkit.parkingsystem.model.ParkingSpot#<init>(ILcom/parkit/parkingsystem/constants/ParkingType;Z)V*2
+0
+%3*com.parkit.parkingsystem.model.ParkingSpot*
+""*?
+=
+parkingType.com.parkit.parkingsystem.constants.ParkingType*2*
+6*™	
+9ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaF F(8î
+ë
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaF F(8=
+parkingType.com.parkit.parkingsystem.constants.ParkingType"__id*6
+4
+%0.com.parkit.parkingsystem.constants.ParkingTypeô
+ñ
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaG G(*1
+%1+com.parkit.parkingsystem.dao.ParkingSpotDAO"__id*G*E1
+/com.parkit.parkingsystem.service.ParkingService"
+parkingSpotDAO’“
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaG G(L	
+%2int"scom.parkit.parkingsystem.dao.ParkingSpotDAO#getNextAvailableSlot(Lcom/parkit/parkingsystem/constants/ParkingType;)I*3
+1
+%1+com.parkit.parkingsystem.dao.ParkingSpotDAO*?
+=
+parkingType.com.parkit.parkingsystem.constants.ParkingType2FgetNextAvailableSlot(Lcom/parkit/parkingsystem/constants/ParkingType;)*
+5
+7*ï
+10ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaF& F(5ı
+Ú
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaF& F(74
+%0.com.parkit.parkingsystem.constants.ParkingType"qcom.parkit.parkingsystem.service.ParkingService#getVehichleType()Lcom/parkit/parkingsystem/constants/ParkingType;*31
+/com.parkit.parkingsystem.service.ParkingService*
+9*Å
+11ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaC C(‡
+›
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaD D('9
+parkingSpot*com.parkit.parkingsystem.model.ParkingSpot"__id*
+""*
+10*Î
+1ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaR R("—
+ë
+Ü/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.javaR R(;
+9
+parkingSpot*com.parkit.parkingsystem.model.ParkingSpotB31
+/com.parkit.parkingsystem.service.ParkingService

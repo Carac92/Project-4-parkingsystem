@@ -1,0 +1,60 @@
+
+Fcom.parkit.parkingsystem.model.ParkingSpot#equals(Ljava/lang/Object;)Zå
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java) )("startingBlock*¨
+2å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java+< +(A"ó
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java+5 +(B
+""*Ø
+3å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java+ +(!ìê
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java+ +(#
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*.,
+*com.parkit.parkingsystem.model.ParkingSpot2
+getClass()¸˘
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java+' +(3
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+ojava.lang.Object2
+getClass()*
+2
+1*√
+startingBlockå
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java) )(#’
+“
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java( ((
+%2"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Objectø
+º
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java)! )("
+ojava.lang.Object"__annotation*
+
+%2*	
+2
+3
+5*¨
+5å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java* *(""ó
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java* *(#
+""*î
+1å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java,) ,(*Â
+‚
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java, ,(+2
+that*com.parkit.parkingsystem.model.ParkingSpot"__id*
+
+ojava.lang.Object"ó
+å
+Å/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java- -(%
+"":
+ojava.lang.ObjectB.,
+*com.parkit.parkingsystem.model.ParkingSpot

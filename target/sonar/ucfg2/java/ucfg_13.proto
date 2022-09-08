@@ -1,0 +1,34 @@
+
+>com.parkit.parkingsystem.util.InputReaderUtil#readSelection()Iè
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java ("6*≤
+4è
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java (:"ö
+è
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java (
+""*ü
+5è
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java (9Ç
+ˇ
+è
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java (9	
+%2int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%1java.lang.String*
+4*ï
+6è
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java (Ò
+Ó
+è
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java) (-
+%0java.util.Scanner"__id*;*9/
+-com.parkit.parkingsystem.util.InputReaderUtil"
+scanÑÅ
+è
+Ñ/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java) (8
+%1java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+%0java.util.Scanner2
+nextLine()*
+5B1/
+-com.parkit.parkingsystem.util.InputReaderUtil
