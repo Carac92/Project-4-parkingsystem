@@ -1,16 +1,0 @@
-
-Kcom.parkit.parkingsystem.model.Ticket#getOutTime()Ljava/time/LocalDateTime;†
-|/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/Ticket.java6 6(#"1*¥
-1†
-|/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/Ticket.java7 7(é
-æ
-†
-|/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/Ticket.java7 7(
-%0java.time.LocalDateTime"__id*6*4'
-%com.parkit.parkingsystem.model.Ticket"	
-outTime"ª
-†
-|/Users/quentincaracatzanis/Documents/GitHub/Project-4-parkingsystem/src/main/java/com/parkit/parkingsystem/model/Ticket.java7 7(
-
-%0java.time.LocalDateTimeB)'
-%com.parkit.parkingsystem.model.Ticket

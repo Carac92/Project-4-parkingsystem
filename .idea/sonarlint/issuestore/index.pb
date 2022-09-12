@@ -9,14 +9,10 @@ Qsrc/test/java/com/parkit/parkingsystem/integration/config/DataBaseTestConfig.ja
 Vsrc/test/java/com/parkit/parkingsystem/integration/service/DataBasePrepareService.java,f/b/fbb2241be41cb3e33b3972a1e0455f171de532a4
 B
 resources/Data.sql,2/c/2c00412a6d81a0b184af68e7ec42e8a8b3a372b7
-n
->src/test/java/com/parkit/parkingsystem/ParkingServiceTest.java,b/f/bfafa75b381d8607fc05b55227f76d809f62e699
 p
 @src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java,3/c/3c54d5d7febc45facabac5e0634ff9591a676a28
 m
 =src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java,3/1/318986ef301ad062e600ed154b628f156483e6f7
-n
->src/main/java/com/parkit/parkingsystem/dao/ParkingSpotDAO.java,7/5/7550c37a2401ab8096eab3d6f0d62b891b9c9155
 q
 Asrc/main/java/com/parkit/parkingsystem/constants/ParkingType.java,d/8/d8f01a22f362ded7d3c261a801b40e51fef59549
 q
