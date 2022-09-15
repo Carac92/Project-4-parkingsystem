@@ -103,11 +103,6 @@
                         <version>1.2.0</version>
                     </dependency>
                 </dependencies>
-                <configuration>
-                    <excludes>
-                        <exclude>**/*IT.java</exclude>
-                    </excludes>
-                </configuration>
                 <executions>
                     <execution>
                         <id>integration-test</id>
