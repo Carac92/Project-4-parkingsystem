@@ -65,7 +65,6 @@ public class ParkingDataBaseIT {
         parkingService.processIncomingVehicle();
 
         //THEN
-
         Ticket abcdef = ticketDAO.getTicket("ABCDEF");
         assertNotNull(abcdef);
         int nextAvailableSlot = parkingSpotDAO.getNextAvailableSlot(ParkingType.CAR);

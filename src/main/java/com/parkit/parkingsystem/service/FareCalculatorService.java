@@ -37,8 +37,8 @@ public class FareCalculatorService {
         //Using Duration Between two LocalDateTime objects converts to minutes divided by 60 to have the
         //correct hours.
         Duration duration = Duration.between(ticket.getInTime(),ticket.getOutTime());
-        long minutes = duration.toMillis();
-        double hours=((double)minutes/(1000*60*60));
+        long millis = duration.toMillis();
+        double hours=((double)millis/(1000*60*60));
         return hours;
     }
 }

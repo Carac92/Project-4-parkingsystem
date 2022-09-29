@@ -53,7 +53,7 @@ public class FareCalculatorWithDataBaseIT {
     public void processExitingVehicleWithRegularCustomerDiscountTest(){
         /*
         Verify that when we query the database for a previous customer the discount applies to the price.
-        So we make one car come
+        So we make one car come and exit and the same car come and exit again.
          */
         //GIVEN
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
