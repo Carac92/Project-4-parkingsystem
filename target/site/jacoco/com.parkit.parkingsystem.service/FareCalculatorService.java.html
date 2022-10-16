@@ -25,9 +25,9 @@ import java.time.Duration;
         }
 <span class="fc" id="L26">    }</span>
     public void calculateFareWithRegularCustomerDiscount(Ticket ticket){
-<span class="nc" id="L28">        double price = ticket.getPrice()*0.95;</span>
-<span class="nc" id="L29">        ticket.setPrice(price);</span>
-<span class="nc" id="L30">    }</span>
+<span class="fc" id="L28">        double price = ticket.getPrice()*0.95;</span>
+<span class="fc" id="L29">        ticket.setPrice(price);</span>
+<span class="fc" id="L30">    }</span>
 
     public double calculateHours (Ticket ticket) {
 <span class="pc bpc" id="L33" title="1 of 4 branches missed.">        if( (ticket.getOutTime() == null) || (ticket.getOutTime().isBefore(ticket.getInTime())) ){</span>
@@ -37,8 +37,8 @@ import java.time.Duration;
         //Using Duration Between two LocalDateTime objects converts to minutes divided by 60 to have the
         //correct hours.
 <span class="fc" id="L39">        Duration duration = Duration.between(ticket.getInTime(),ticket.getOutTime());</span>
-<span class="fc" id="L40">        long minutes = duration.toMillis();</span>
-<span class="fc" id="L41">        double hours=((double)minutes/(1000*60*60));</span>
+<span class="fc" id="L40">        long millis = duration.toMillis();</span>
+<span class="fc" id="L41">        double hours=((double)millis/(1000*60*60));</span>
 <span class="fc" id="L42">        return hours;</span>
     }
 }

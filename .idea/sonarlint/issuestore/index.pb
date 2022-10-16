@@ -1,6 +1,4 @@
 
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 †
 Vsrc/test/java/com/parkit/parkingsystem/integration/service/DataBasePrepareService.java,f/b/fbb2241be41cb3e33b3972a1e0455f171de532a4
 p
@@ -15,8 +13,6 @@ K
 .github/workflows/build.yml,f/e/fe77d5d1439f26e353a42bbd38dece2467ff6558
 n
 >src/main/java/com/parkit/parkingsystem/dao/ParkingSpotDAO.java,7/5/7550c37a2401ab8096eab3d6f0d62b891b9c9155
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 B
 parking-system.iml,f/3/f308a664101deca9caef9044c5b922487d1f048c
 
@@ -25,8 +21,6 @@ _
 /src/main/java/com/parkit/parkingsystem/App.java,f/4/f413b9814992e2e3525f88e4eb1a9b6234768a0e
 m
 =src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java,3/1/318986ef301ad062e600ed154b628f156483e6f7
-u
-Esrc/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java,3/4/348a6a839f09ba349014f14ea7f0814d4e17dab7
 B
 resources/Data.sql,2/c/2c00412a6d81a0b184af68e7ec42e8a8b3a372b7
 q
@@ -39,11 +33,5 @@ y
 Isrc/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java,c/a/ca8d38eaa07ba4c323ae82bc7ea69a1d687a19bf
 r
 Bsrc/main/java/com/parkit/parkingsystem/service/ParkingService.java,3/0/3010778988e0a8c9498c5b9ccbb0c445bb7c8f19
-y
-Isrc/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java,7/6/76c98b7b54c9c1b7a996ba73834a448b978db0f0
-„
-Tsrc/test/java/com/parkit/parkingsystem/integration/FareCalculatorWithDataBaseIT.java,0/4/042c670331a86ba71cc04522af9c847c7357a04f
-n
->src/test/java/com/parkit/parkingsystem/ParkingServiceTest.java,b/f/bfafa75b381d8607fc05b55227f76d809f62e699
 h
 8src/main/java/com/parkit/parkingsystem/model/Ticket.java,8/3/83ca0dc357a8c4d44de3d7afb64a8ac2f9eaf20c
