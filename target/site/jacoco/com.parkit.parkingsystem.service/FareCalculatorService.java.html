@@ -25,9 +25,9 @@ import java.time.Duration;
         }
 <span class="fc" id="L26">    }</span>
     public void calculateFareWithRegularCustomerDiscount(Ticket ticket){
-<span class="fc" id="L28">        double price = ticket.getPrice()*0.95;</span>
-<span class="fc" id="L29">        ticket.setPrice(price);</span>
-<span class="fc" id="L30">    }</span>
+<span class="nc" id="L28">        double price = ticket.getPrice()*0.95;</span>
+<span class="nc" id="L29">        ticket.setPrice(price);</span>
+<span class="nc" id="L30">    }</span>
 
     public double calculateHours (Ticket ticket) {
 <span class="pc bpc" id="L33" title="1 of 4 branches missed.">        if( (ticket.getOutTime() == null) || (ticket.getOutTime().isBefore(ticket.getInTime())) ){</span>
